@@ -1,4 +1,4 @@
-# Tempo2 Polyco Generator
+# T-PAIn : Tempo2-Polyco Phase at any Instant 
 
 This script is designed to generate polyco files using Tempo2. It allows users to specify parameters through a configuration file and calculates the predicted rotation frequency and absolute phase at a given observation date.
 
