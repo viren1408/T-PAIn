@@ -1,4 +1,3 @@
-```
 # Tempo2 Polyco Generator
 
 This script is designed to generate polyco files using Tempo2 for pulsar timing analysis. It allows users to specify parameters through a configuration file and calculates the predicted rotation frequency and absolute phase at a given observation date.
