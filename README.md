@@ -15,7 +15,7 @@ This script is designed to generate polyco files using Tempo2. It allows users t
    ```bash
    cd tempo2-polyco-generator
    ```
-## *Note* : The script obviously assumes that tempo2 is installed in the users enviornment. 
+#### *Note* : The script obviously assumes that tempo2 is installed in the users enviornment. 
 
 ## Usage
 1. Create a configuration file (`config_tempo2polyco.ini`) with the desired parameters an example config file has been uploaded for the user's perusal.
@@ -25,7 +25,7 @@ This script is designed to generate polyco files using Tempo2. It allows users t
    ```bash
    python tempo2_polyco_generator.py
    ```
-### *please note*: 
+#### *please note*: 
 1. The script will run the tempo2 polyco command using parameters given in the config file. For details on polyco output format and phase formula refer to https://www.jb.man.ac.uk/research/pulsar/Resources/tempo2_manual.pdf
 2. I have studied and tested the polyco mode extensively and currently I am in the process of drafting a long summary, current version of the summary has been uploaded.
 
