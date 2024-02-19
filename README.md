@@ -1,6 +1,10 @@
-# T-PAIn : Tempo2-Polyco Phase At any Instant 
+# T-PAIn :  
+What does "T-PAIn" stand for, you ask? Well, it's short for "Tempo2-Polyco Phase At any Instant" – because that's exactly what it does!
 
-This script is designed to generate polyco files using Tempo2. It allows users to specify parameters through a configuration file and calculates the predicted rotation frequency and absolute phase at a given observation date.
+With T-PAIn, you can generate polyco files using Tempo2 and calculate the predicted rotation frequency and absolute phase at a given observation date. All you need is an updated ephemeris for the pulsar (.par) file. 
+
+Please feel free to suggest any changes or modifications. I would also like it if you mention the code repo if you are using it for some scientific publication. 
+
 
 ## Installation 
 
@@ -49,6 +53,7 @@ The script generates a text file (`predphase_pulsar_name.txt`) containing the pr
 
 ## Future Version 
 I am working on the following updates which are currently in the testing phase:
-1. The parameter sweep: To have a sweep of parameters like frequency, site,mjd_start, and mjd_end so that the code can predict phase and frequency at multiple parameter values. I wrote a skeleton for this when I was testing polyco outputs, I think it could be a useful script to have.
-2. Applying polycos for pulsar gating: This work is currently in progress.
+1. To include psrcat in the code which would just query a .par file from the ATNF catalog. (The ATNF catalog however does not provide updated par files with TZRmjd parameter which acts as the reference parameters at which phase is 0) 
+2. The parameter sweep: To have a sweep of parameters like frequency, site,mjd_start, and mjd_end so that the code can predict phase and frequency at multiple parameter values. I wrote a skeleton for this when I was testing polyco outputs, I think it could be a useful script to have.
+3. Applying polycos for pulsar gating: This work is currently in progress.
 ```
