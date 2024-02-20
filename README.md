@@ -11,13 +11,13 @@ Please feel free to suggest any changes or modifications. I would also like it i
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your_username/tempo2-polyco-generator.git
+   git clone https://github.com/viren1408/T-PAIn.git
    ```
 
 2. Navigate to the directory:
 
    ```bash
-   cd tempo2-polyco-generator
+   cd T-PAIn
    ```
 #### *Note* : The script obviously assumes that tempo2 is installed in the users enviornment. 
 
