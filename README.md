@@ -1,6 +1,4 @@
 # T-PAIn :  
-What does "T-PAIn" stand for, you ask? Well, it's short for "Tempo2-Polyco Phase At any Instant" – because that's exactly what it does!
-
 With T-PAIn, you can generate polyco files using Tempo2 and calculate the predicted rotation frequency and absolute phase at a given observation date. All you need is an updated ephemeris for the pulsar (.par) file. 
 
 Please feel free to suggest any changes or modifications. I would also like it if you mention the code repo if you are using it for some scientific publication. 
